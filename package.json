@@ -1,0 +1,20 @@
+{
+  "name": "cypress_cucumber_testing",
+  "version": "1.0.0",
+  "description": "Welcome to the cypress_cucumber_testing repository! This project is dedicated to implementing test techniques, ensuring quality, and practicing the use of JavaScript, Cypress, and Cucumber.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ghazi abdallah",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "cypress": "^13.13.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/",
+    "nonGlobalStepDefinitions": false
+  }
+}
