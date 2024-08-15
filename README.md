@@ -5,6 +5,9 @@ The main objectives of this repository are:
 - Implementing test techniques: Explore and apply various testing methodologies to ensure the reliability and stability of software applications.
 - Assuring quality: Implement testing strategies to identify and address defects early in the development process, ultimately improving the overall quality of the software.
 - Practicing JavaScript, Cypress, and Cucumber: Gain hands-on experience with JavaScript as the primary programming language, Cypress as the end-to-end testing framework, and Cucumber for behavior-driven development (BDD).
+## Note 
+our upcoming testing will focus on the open-source website available at OrangeHRM Live Demo  https://opensource-demo.orangehrmlive.com/ . This platform will serve as a valuable resource for evaluating our testing methodologies and ensuring the robustness of our solutions. Stay tuned for updates as we dive into this testing phase!
+
 ## Install dependencies 
  1. npm init -y
  2. npm install cypress --save-dev
