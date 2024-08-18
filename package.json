@@ -1,17 +1,18 @@
 {
-  "name": "cypress_cucumber_testing",
+  "name": "cybdd",
   "version": "1.0.0",
-  "description": "Welcome to the cypress_cucumber_testing repository! This project is dedicated to implementing test techniques, ensuring quality, and practicing the use of JavaScript, Cypress, and Cucumber.",
-  "main": "index.js",
+  "description": "Boilerplate for implementing BDD (cucumber) in cypress",
+  "main": "cypress.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "keywords": [],
-  "author": "ghazi abdallah",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
-    "cypress": "^13.13.3"
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.4"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/step_definitions/",
